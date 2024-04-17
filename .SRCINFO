@@ -1,0 +1,24 @@
+pkgbase = n3n
+	pkgdesc = Peer to Peer VPN
+	pkgver = 3.3.2
+	pkgrel = 1
+	url = https://github.com/n42n/n3n
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = GPL2
+	license = GPL3
+	license = LGPL2.1
+	makedepends = libpcap
+	depends = libcap
+	depends = openssl
+	depends = miniupnpc
+	depends = zstd
+	optdepends = libpcap: for n3n-decode
+	backup = etc/n3n/edge.conf
+	backup = etc/n3n/supernode.conf
+	source = https://github.com/n42n/n3n/archive/refs/tags/3.3.2.tar.gz
+	sha256sums = 24c5209abe81f591009a3be062ece803c018715c3b75929cc921a3e7455f3381
+
+pkgname = n3n
